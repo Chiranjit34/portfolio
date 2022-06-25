@@ -24,8 +24,8 @@ export default function Socials() {
             <Linkedin size={20} color="currentColor" />
           </a>
           <a
-            href="https://codesandbox.io/u/MehfoozurRehman"
-            title="codesandbox"
+            href="mailto:chiranjitbehera34@gmail.com"
+            title="mail"
             target="_blank"
             rel="noreferrer"
             className="social__links__entries__link"
