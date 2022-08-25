@@ -96,6 +96,7 @@ body {
 .social__email__text:hover {
   color: var(--primary);
 }
+
 .header {
   width: 100%;
   position: fixed;
@@ -449,9 +450,16 @@ body {
     }
   }
 }
+.social__number__text {
+  color: var(--text);
+  text-decoration: none;
+  z-index: 999;
+}
+.social__number__text:hover {
+  color: var(--primary);
+}
 .services__section__content__left__entry__content {
   color: var(--text);
-  // text-decoration: none;
 }
 .services__section__content__right {
   display: flex;

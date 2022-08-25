@@ -38,6 +38,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        {/* <div className="home__section__info" style={{}}>Designed & Built by<span>Chiranjit Behera</span> © 2022</div> */}
       </div>
     </section>
   );

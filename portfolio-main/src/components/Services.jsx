@@ -14,9 +14,11 @@ export default function Services() {
             "HTML",
             "CSS",
             "JavaScript",
+            "Typescript",
             "React",
             "Redux",
-            "Matrial UI",
+            "NextJS",
+            "Material UI",
             "Bootstrap",
             "Tailwind",
             "Chakra UI",
@@ -31,16 +33,18 @@ export default function Services() {
             "NodeJS",
             "ExpressJS",
             "MongoDB",
-            "Mongoose",
             "Git",
             "NPM",
             "Postman",
             "Rest",
+            "Authentication",
+            "Redis",
+            "AWS",
           ]}
         />
         <ServicesCard
           title="Testing & Analytics"
-          skills={["Firebase", "Cypress", "Jest"]}
+          skills={["Jest", "Cypress", "Firebase"]}
         />
       </div>
     </section>

@@ -55,7 +55,7 @@ export default function AboutMe() {
           }}
         >
           🦄 <span>Skills:</span> HTML, CSS, JavaScript, Bootstrap, MUI,
-          ReactJS, MongoDB, ExpressJS, NodeJS, Typescript, Rest
+          ReactJS, NextJS, MongoDB, ExpressJS, NodeJS, Typescript, Rest API
         </div>
         <div
           className="home__section__info"
@@ -67,7 +67,7 @@ export default function AboutMe() {
           Terminal, Firebase, Netlify, and Git.
         </div>
         <a
-          href="https://docs.google.com/document/d/1Jd-NupakVKpP6dAcEEJ_BC4hlgwuy3f-hrHGt1fqW8o/edit"
+          href="https://drive.google.com/file/d/1X1PyLfbZPSSQeFPHDHQBbkMvyFweqgBa/view?usp=sharing"
           className="home__section__button"
           title="Download CV"
           target="_blank"

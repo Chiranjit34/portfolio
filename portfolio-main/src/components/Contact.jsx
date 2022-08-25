@@ -1,16 +1,16 @@
 import { useRef, useState } from "react";
 import { Mail, MapPin, Phone } from "react-feather";
 import emailjs from "@emailjs/browser";
+// import emailjs from "emailjs-com";
 
 export default function Contact() {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        "service_2uagldh",
-        "template_746402j",
+        "service_o5c1zvn",
+        "template_tt8wjg7",
         form.current,
         "0Ohy0N8v6pYPHyROJ"
       )
@@ -18,6 +18,7 @@ export default function Contact() {
         () => {
           alert("Message successfully sent!");
           window.location.reload(false);
+          // e.target.reset();
         },
         () => {
           alert("Failed to send the message, please try again");
@@ -56,7 +57,9 @@ export default function Contact() {
               <Phone size={20} color="currentColor" />
             </div>
             <div className="services__section__content__left__entry__content">
-              <a href="tel:+919090475233">+91 9090475233</a>
+              <a href="tel:+919090475233" className="social__number__text">
+                +91 9090475233
+              </a>
             </div>
           </div>
           <div className="services__section__content__left__entry">
@@ -64,7 +67,12 @@ export default function Contact() {
               <Mail size={20} color="currentColor" />
             </div>
             <div className="services__section__content__left__entry__content">
-              chiranjitbehera34@gmail.com
+              <a
+                href="mailto:chiranjitbehera34@gmail.com"
+                className="social__email__text"
+              >
+                chiranjitbehera34@gmail.com
+              </a>
             </div>
           </div>
         </div>
@@ -75,10 +83,10 @@ export default function Contact() {
             className="services__section__content__right__form"
           >
             <div className="home__section__heading">Say Something</div>
-            <InputBox placeholder="Your Name" type="text" />
-            <InputBox placeholder="Email Address" type="email" />
-            <InputBox placeholder="Subject" type="text" />
-            <TextareaBox placeholder="Message" />
+            <InputBox placeholder="Your Name" name="name" type="text" />
+            <InputBox placeholder="Email Address" name="email" type="email" />
+            <InputBox placeholder="Subject" name="subject" type="text" />
+            <TextareaBox placeholder="Message" name="message" type="text" />
             <button
               className="home__section__button"
               style={{ width: "100%", marginTop: 20 }}

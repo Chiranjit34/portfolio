@@ -7,9 +7,9 @@ export default function HomeSection() {
         Let's Build You A <span>Digital Identity</span>
       </div>
       <div className="home__section__info">
-        I'm a Web Developer based in India. Proficient in web development. I enjoy
-        turning complex problems into simple, beautiful and intuitive solutions.
-        Studying this time at
+        I'm a Web Developer based in India. Proficient in web
+        development. I enjoy turning complex problems into simple, beautiful and
+        intuitive solutions. Studying this time at
         <span>Masai School</span>
       </div>
       <button
