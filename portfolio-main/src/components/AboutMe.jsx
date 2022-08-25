@@ -1,4 +1,4 @@
-import { pic } from "../assets";
+import pic from "../assets/pic.png";
 
 export default function AboutMe() {
   return (
