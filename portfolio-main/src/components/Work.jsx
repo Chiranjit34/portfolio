@@ -3,7 +3,7 @@ import mg from "../assets/mg.png";
 import pharm from "../assets/pharm.png";
 import sugar from "../assets/sugar.PNG";
 import WorkCard from "./WorkCard";
-// import you from "../assets/youchat.png";
+import note from "../assets/note.png";
 
 export default function Work() {
   return (
@@ -58,14 +58,23 @@ export default function Work() {
         siteLink="https://nyka-man-clone.netlify.app/"
         githubLink="https://github.com/AFFAN-AHMAD/Nyka-man-clone"
       />
-      {/* <WorkCard
-        tech={["React", "CSS", "SASS", "NodeJS", "Rest", "ExpressJS", "Mongoose", "socket.io", "cors"]}
-        heading={["Nykaaman"]}
-        banner={you}
-        info=""
-        siteLink="https://youlchat.netlify.app/"
-        githubLink="https://github.com/Chiranjit34/youchat"
-      /> */}
+      <WorkCard
+        tech={[
+          "React",
+          "CSS",
+          "NodeJS",
+          "ExpressJS",
+          "Mongoose",
+          "cors",
+          "jwt",
+          "Bcrypt"
+        ]}
+        heading={["NotesApp"]}
+        banner={note}
+        info="A note app where you can store you note."
+        siteLink="https://noteapp34.netlify.app/"
+        githubLink="https://github.com/Chiranjit34/NotesApp"
+      />
     </section>
   );
 }
