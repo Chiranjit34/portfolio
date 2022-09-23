@@ -83,8 +83,18 @@ export default function Contact() {
             className="services__section__content__right__form"
           >
             <div className="home__section__heading">Say Something</div>
-            <InputBox placeholder="Your Name" name="name" type="text" />
-            <InputBox placeholder="Email Address" name="email" type="email" />
+            <InputBox
+              placeholder="Your Name"
+              name="name"
+              type="text"
+              required
+            />
+            <InputBox
+              placeholder="Email Address"
+              name="email"
+              type="email"
+              required
+            />
             <InputBox placeholder="Subject" name="subject" type="text" />
             <TextareaBox placeholder="Message" name="message" type="text" />
             <button

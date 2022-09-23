@@ -4,6 +4,7 @@ import pharm from "../assets/pharm.png";
 import sugar from "../assets/sugar.PNG";
 import WorkCard from "./WorkCard";
 import note from "../assets/note.png";
+import job from "../assets/job.png";
 
 export default function Work() {
   return (
@@ -67,13 +68,30 @@ export default function Work() {
           "Mongoose",
           "cors",
           "jwt",
-          "Bcrypt"
+          "Bcrypt",
         ]}
         heading={["NotesApp"]}
         banner={note}
         info="A note app where you can store you note."
         siteLink="https://noteapp34.netlify.app/"
         githubLink="https://github.com/Chiranjit34/NotesApp"
+      />
+      <WorkCard
+        right
+        tech={[
+          "React",
+          "Material ui",
+          "NodeJS",
+          "ExpressJS",
+          "Mongoose",
+          "jwt",
+          "Bcrypt",
+        ]}
+        heading={["jobportal"]}
+        banner={job}
+        info="Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies and to job seekers in India and overseas. It offers multiple products like Resume Database Access, listings and Response Management Tools."
+        siteLink="https://jobportal34.netlify.app/"
+        githubLink="https://github.com/Chiranjit34/jobProtal"
       />
     </section>
   );
