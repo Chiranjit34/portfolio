@@ -2,7 +2,7 @@ import { lazy, Suspense, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import "swiper/scss";
-import Loading from "./components/Loading";
+import {Loading} from "./components/Loading";
 const Socials = lazy(() => import("./components/Socials"));
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));

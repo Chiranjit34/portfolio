@@ -1,6 +1,6 @@
 import LogoS from "../assets/logo-c.png";
 
-export default function Loading() {
+export function Loading() {
   return (
     <div
       style={{
@@ -17,3 +17,36 @@ export default function Loading() {
     </div>
   );
 }
+
+
+
+
+// import React from "react";
+// import { ThreeCircles } from "react-loader-spinner";
+
+// export const Loading = () => {
+//   return (
+//     <div
+//       style={{
+//         width: "100vw",
+//         height: "100vh",
+//         display: "flex",
+//         justifyContent: "center",
+//         alignItems: "center",
+//       }}
+//     >
+//       <ThreeCircles
+//         height="100"
+//         width="100"
+//         color="grey"
+//         wrapperStyle={{}}
+//         wrapperClass=""
+//         visible={true}
+//         ariaLabel="three-circles-rotating"
+//         outerCircleColor=""
+//         innerCircleColor=""
+//         middleCircleColor=""
+//       />
+//     </div>
+//   );
+// };
