@@ -25,6 +25,10 @@ export default function Header() {
       label: "Projects",
       scrollTo: "work",
     },
+    // {
+    //   label: "Resume",
+    //   scrollTo: "about",
+    // },
   ];
   const [isNavOpen, setIsNavOpen] = useState(true);
   useLayoutEffect(() => {
@@ -60,9 +64,7 @@ export default function Header() {
           title="logo"
         >
           <img src={LogoS} height={30} alt="Logo" />
-          <p>
-            hiranjit
-          </p>
+          <p>hiranjit</p>
         </button>
         <button
           className="header__content__menu"

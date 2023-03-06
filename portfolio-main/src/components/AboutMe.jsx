@@ -1,4 +1,5 @@
 import pic from "../assets/pic.png";
+import pdf from "../assets/Chiranjit Behera.pdf";
 
 export default function AboutMe() {
   return (
@@ -24,7 +25,7 @@ export default function AboutMe() {
         >
           About me
         </div>
-        <div
+        {/* <div
           className="home__section__info"
           style={{
             marginBottom: 0,
@@ -33,7 +34,7 @@ export default function AboutMe() {
           Hello everyone, I'm a Web Developer based in India. I enjoy turning
           complex problems into simple, beautiful and intuitive solutions.
           Studying this time at "Masai School"
-        </div>
+        </div> */}
         <div
           className="home__section__info"
           style={{
@@ -41,11 +42,10 @@ export default function AboutMe() {
             marginTop: 20,
           }}
         >
-          I'm very ambitious front-end developer looking for a role in
-          established IT company with the opportunity to work with the latest
+          I'm a very ambitious front-end developer looking for a role in
+          an established IT company with the opportunity to work with the latest
           technologies on challenging and diverse projects. I'm quietly
           confident, naturally curious, and perpetually working on improving my
-          chops one design problem at a time.
         </div>
         <div
           className="home__section__info"
@@ -64,14 +64,25 @@ export default function AboutMe() {
           }}
         >
           💼 <span>Tools:</span> Visual Studio Code, GitHub Desktop, Windows
-          Terminal, Firebase, Netlify, and Git.
+          Terminal, Netlify, and Git.
         </div>
-        <a
+        {/* <a
           href="https://drive.google.com/file/d/1X1PyLfbZPSSQeFPHDHQBbkMvyFweqgBa/view?usp=sharing"
+          className="home__section__button"
+          // title="Download CV"
+          // target="_blank"
+          rel="noreferrer"
+          download
+        >
+          Download CV
+        </a> */}
+        <a
+          href={pdf}
           className="home__section__button"
           title="Download CV"
           target="_blank"
           rel="noreferrer"
+          download
         >
           Download CV
         </a>

@@ -9,7 +9,7 @@ export default function HomeSection() {
       <div className="home__section__info">
         I'm a Web Developer based in India. Proficient in web
         development. I enjoy turning complex problems into simple, beautiful and
-        intuitive solutions. Studying this time at
+        intuitive solutions. Recently graduated from
         <span>Masai School</span>
       </div>
       <button
