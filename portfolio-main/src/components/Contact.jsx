@@ -1,7 +1,6 @@
 import { useRef, useState } from "react";
 import { Mail, MapPin, Phone } from "react-feather";
 import emailjs from "@emailjs/browser";
-// import emailjs from "emailjs-com";
 
 export default function Contact() {
   const form = useRef();

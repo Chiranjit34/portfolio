@@ -42,8 +42,8 @@ export default function AboutMe() {
             marginTop: 20,
           }}
         >
-          I'm a very ambitious front-end developer looking for a role in
-          an established IT company with the opportunity to work with the latest
+          I'm a very ambitious full stack developer looking for a role in an
+          established IT company with the opportunity to work with the latest
           technologies on challenging and diverse projects. I'm quietly
           confident, naturally curious, and perpetually working on improving my
         </div>
@@ -66,26 +66,27 @@ export default function AboutMe() {
           💼 <span>Tools:</span> Visual Studio Code, GitHub Desktop, Windows
           Terminal, Netlify, and Git.
         </div>
-        {/* <a
-          href="https://drive.google.com/file/d/1X1PyLfbZPSSQeFPHDHQBbkMvyFweqgBa/view?usp=sharing"
-          className="home__section__button"
-          // title="Download CV"
-          // target="_blank"
-          rel="noreferrer"
-          download
-        >
-          Download CV
-        </a> */}
-        <a
-          href={pdf}
-          className="home__section__button"
-          title="Download CV"
-          target="_blank"
-          rel="noreferrer"
-          download
-        >
-          Download CV
-        </a>
+        <div style={{display:"flex", gap:"10px"}}>
+          <a
+            href="https://drive.google.com/file/d/1X1PyLfbZPSSQeFPHDHQBbkMvyFweqgBa/view?usp=sharing"
+            className="home__section__button"
+            title="View Resume"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View Resume
+          </a>
+          <a
+            href={pdf}
+            className="home__section__button"
+            title="Download Resume"
+            target="_blank"
+            rel="noreferrer"
+            download
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
     </section>
   );

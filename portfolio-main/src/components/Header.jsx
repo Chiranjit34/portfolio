@@ -11,7 +11,7 @@ export default function Header() {
     {
       label: "Home",
       scrollTo: "home",
-      defaultChecked: true,
+      // defaultChecked: true,
     },
     {
       label: "About Me",
@@ -57,7 +57,7 @@ export default function Header() {
             });
             navigate("/");
             setTimeout(() => {
-              document.getElementById("home").checked = true;
+              // document.getElementById("home").checked = true;
             }, 300);
           }}
           className="header__content__logo logo-div"
@@ -96,7 +96,7 @@ export default function Header() {
                       index={index}
                       label={link.label}
                       scrollTo={link.scrollTo}
-                      defaultChecked={link.defaultChecked}
+                      // defaultChecked={link.defaultChecked}
                     />
                   ))}
                 </div>

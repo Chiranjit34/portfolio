@@ -195,11 +195,18 @@ body {
 }
 .header__content__nav__links__entry__input:hover
   ~ .header__content__nav__links__entry__content,
-.header__content__nav__links__entry__input:checked
+.header__content__nav__links__entry__input
   ~ .header__content__nav__links__entry__content {
   transition: 300ms ease-in-out;
   color: var(--primary);
 }
+// .header__content__nav__links__entry__input:hover
+//   ~ .header__content__nav__links__entry__content,
+// .header__content__nav__links__entry__input:checked
+//   ~ .header__content__nav__links__entry__content {
+//   transition: 300ms ease-in-out;
+//   color: var(--primary);
+// }
 .header__content__nav__button {
   position: relative;
   margin-left: 1.5em;

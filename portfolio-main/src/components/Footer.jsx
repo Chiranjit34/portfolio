@@ -9,7 +9,7 @@ export default function Footer() {
           className="footer__content__button"
           onClick={() => {
             document.getElementById("home__section").scrollIntoView();
-            document.getElementById("home").checked = true;
+            // document.getElementById("home").checked = true;
           }}
           title="back to top"
         >
@@ -23,7 +23,7 @@ export default function Footer() {
                   top: 0,
                   behavior: "smooth",
                 });
-                document.getElementById("home").checked = true;
+                // document.getElementById("home").checked = true;
               }}
               className="header__content__logo"
               title="logo"

@@ -17,7 +17,7 @@ export default function HomeSection() {
         title="Check out my work!"
         onClick={() => {
           document.getElementById("work__section").scrollIntoView();
-          document.getElementById("work").checked = true;
+          // document.getElementById("work").checked = true;
         }}
       >
         Check out my work!

@@ -7,7 +7,7 @@ const Socials = lazy(() => import("./components/Socials"));
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
 const Home = lazy(() => import("./screens/Home"));
-const Archive = lazy(() => import("./screens/Archive"));
+// const Archive = lazy(() => import("./screens/Archive"));
 
 export default function App() {
   const [showFooter, setShowFooter] = useState(false);
@@ -26,7 +26,7 @@ export default function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/archive" element={<Archive />} />
+          {/* <Route path="/archive" element={<Archive />} /> */}
         </Routes>
       </div>
       {showFooter ? <Footer /> : null}
