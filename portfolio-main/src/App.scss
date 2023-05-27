@@ -242,12 +242,12 @@ body {
   background-color: var(--hover);
   color: var(--white);
 }
-.header__content__nav__button__input:checked
-  ~ .header__content__nav__button__content {
-  transition: 300ms ease-in-out;
-  background-color: var(--hover);
-  color: var(--white);
-}
+// .header__content__nav__button__input:checked
+//   ~ .header__content__nav__button__content {
+//   transition: 300ms ease-in-out;
+//   background-color: var(--hover);
+//   color: var(--white);
+// }
 
 .home__section {
   display: flex;
