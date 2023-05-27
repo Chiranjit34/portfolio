@@ -8,7 +8,7 @@ export default function GithubCalender() {
         color="#64ffda"
         showWeekdayLabels
         fontSize={14}
-        year={new Date().getFullYear()}
+        // year={new Date().getFullYear()}
         style={{
           color: "white",
           margin: "0em 2em",

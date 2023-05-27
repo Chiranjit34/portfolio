@@ -64,7 +64,7 @@ export default function AboutMe() {
           }}
         >
           💼 <span>Tools:</span> Visual Studio Code, GitHub Desktop, Windows
-          Terminal, Netlify, and Git.
+          Terminal, Netlify, Vercel, and Git.
         </div>
         <div style={{display:"flex", gap:"10px"}}>
           <a
