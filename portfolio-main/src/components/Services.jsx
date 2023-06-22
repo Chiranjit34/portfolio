@@ -36,9 +36,8 @@ export default function Services() {
             "Git",
             "NPM",
             "Postman",
-            "Rest",
+            "Rest API",
             "Authentication",
-            "Redis",
             "AWS",
           ]}
         />
