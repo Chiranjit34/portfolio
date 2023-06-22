@@ -50,7 +50,6 @@ export default function Work() {
         githubLink="https://github.com/Chiranjit34/jobProtal"
       />
       <WorkCard
-        right
         tech={["ReactJS", "CSS", "Redux", "Rest"]}
         heading={["Pharm Eassy"]}
         banner={pharm}
@@ -59,6 +58,7 @@ export default function Work() {
         githubLink="https://github.com/ahmadparvej/pharmeasy-clone/tree/main/app"
       />
       <WorkCard
+        right
         tech={[
           "Context API",
           "ReactJS",
