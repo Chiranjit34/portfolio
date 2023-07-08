@@ -29,7 +29,7 @@ export default function Work() {
         heading={["NotesApp"]}
         banner={note}
         info="A note app where you can store you note."
-        siteLink="https://noteapp34.netlify.app/"
+        siteLink="https://noteapp33.netlify.app/"
         githubLink="https://github.com/Chiranjit34/NotesApp"
       />
       <WorkCard
@@ -50,11 +50,11 @@ export default function Work() {
         githubLink="https://github.com/Chiranjit34/jobProtal"
       />
       <WorkCard
-        tech={["ReactJS", "CSS", "Redux", "Rest"]}
+        tech={["ReactJS", "CSS", "Redux"]}
         heading={["Pharm Eassy"]}
         banner={pharm}
         info="PharmEasy is a consumer healthcare super app. PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs."
-        siteLink="https://pharmeasy-clone-websit.netlify.app/"
+        siteLink="https://pharmeasy-clone-website.netlify.app/"
         githubLink="https://github.com/ahmadparvej/pharmeasy-clone/tree/main/app"
       />
       <WorkCard
@@ -77,15 +77,15 @@ export default function Work() {
         githubLink="https://github.com/abhinavBisht94/sugar-cosmetics-clone"
       />
 
-      <WorkCard
+      {/* <WorkCard
         tech={["HTML", "CSS", "JavaScript", "Rest"]}
         heading={["Tata 1Mg"]}
         banner={mg}
         info="1mg.com brings to you an online platform, which can be accessed for all your health needs. We are trying to make healthcare a hassle-free experience for you. Get your allopathic, ayurvedic, homeopathic medicines, vitamins & nutrition supplements and other health-related products delivered at home. Lab tests? That too in the comfort of your home. Doctor consult? Yes, we got that covered too."
         siteLink="https://tata1mg-lyart.vercel.app"
         githubLink="https://github.com/AFFAN-AHMAD/project-1mg"
-      />
-      <WorkCard
+      /> */}
+      {/* <WorkCard
         right
         tech={["HTML", "CSS", "JavaScript", "Rest"]}
         heading={["Nykaaman"]}
@@ -93,7 +93,7 @@ export default function Work() {
         info="Nykaaman is the website of the Parent company Nykaa.com. Nykaa launched the Nykaaman, an e-commerce website exclusively for men as a gentleman guide offering varieties of grooming products such as hair care, personal care, beard care, grooming tips, etc."
         siteLink="https://nyka-man-clone.netlify.app/"
         githubLink="https://github.com/AFFAN-AHMAD/Nyka-man-clone"
-      />
+      /> */}
     </section>
   );
 }
