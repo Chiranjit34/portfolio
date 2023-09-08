@@ -42,10 +42,15 @@ export default function AboutMe() {
             marginTop: 20,
           }}
         >
-          I'm a very ambitious full stack developer looking for a role in an
+          {/* I'm a very ambitious full stack developer looking for a role in an
           established IT company with the opportunity to work with the latest
           technologies on challenging and diverse projects. I'm quietly
-          confident, naturally curious, and perpetually working on improving my
+          confident, naturally curious, and perpetually working on improving my */}
+          A highly ambitious full stack developer seeks a role in a
+          well-established IT company, aiming to engage with cutting-edge
+          technologies on a range of challenging and diverse projects.
+          Demonstrating quiet confidence, a natural curiosity, and a perpetual
+          drive for skill enhancement.
         </div>
         <div
           className="home__section__info"
@@ -66,7 +71,7 @@ export default function AboutMe() {
           💼 <span>Tools:</span> Visual Studio Code, GitHub Desktop, Windows
           Terminal, Netlify, Vercel, and Git.
         </div>
-        <div style={{display:"flex", gap:"10px"}}>
+        <div style={{ display: "flex", gap: "10px" }}>
           <a
             href="https://drive.google.com/file/d/1X1PyLfbZPSSQeFPHDHQBbkMvyFweqgBa/view?usp=sharing"
             className="home__section__button"

@@ -1,10 +1,10 @@
-import nyka from "../assets/nyka.png";
-import mg from "../assets/mg.png";
+// import nyka from "../assets/nyka.png";
+// import mg from "../assets/mg.png";
 import pharm from "../assets/pharm.png";
 import sugar from "../assets/sugar.PNG";
 import WorkCard from "./WorkCard";
 import note from "../assets/note.png";
-import job from "../assets/job.png";
+// import job from "../assets/job.png";
 
 export default function Work() {
   return (
@@ -32,7 +32,7 @@ export default function Work() {
         siteLink="https://noteapp33.netlify.app/"
         githubLink="https://github.com/Chiranjit34/NotesApp"
       />
-      <WorkCard
+      {/* <WorkCard
         right
         tech={[
           "React",
@@ -46,10 +46,11 @@ export default function Work() {
         heading={["jobportal"]}
         banner={job}
         info="Naukri.com is a recruitment platform that provides hiring-related services to corporates/recruiters, placement agencies and to job seekers in India and overseas. It offers multiple products like Resume Database Access, listings and Response Management Tools."
-        siteLink="https://jobportal34.netlify.app/"
+        siteLink="https://jobportal33.netlify.app/"
         githubLink="https://github.com/Chiranjit34/jobProtal"
-      />
+      /> */}
       <WorkCard
+        right
         tech={["ReactJS", "CSS", "Redux"]}
         heading={["Pharm Eassy"]}
         banner={pharm}
@@ -58,7 +59,7 @@ export default function Work() {
         githubLink="https://github.com/ahmadparvej/pharmeasy-clone/tree/main/app"
       />
       <WorkCard
-        right
+        // right
         tech={[
           "Context API",
           "ReactJS",

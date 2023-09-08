@@ -1,4 +1,4 @@
-import project from "../assets/project.jpg";
+
 import { GitHub, Link } from "react-feather";
 
 export default function WorkCard({
@@ -23,7 +23,7 @@ export default function WorkCard({
         rel="noreferrer"
       >
         <img
-          src={banner ? banner : project}
+          src={banner}
           alt="project_img"
           className="work__section__entry__left__img"
         />

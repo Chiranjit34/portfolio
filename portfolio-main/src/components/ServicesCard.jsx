@@ -7,6 +7,9 @@ export default function ServicesCard({ title, skills }) {
           i !== skills.length - 1 ? skill + ", " : skill
         )}
       </div>
+      {/* <div>
+        {icons.map((icon, j) => (j !== icons.length - 1 ? <icon/>+ ", " : <icon/>))}
+      </div> */}
     </div>
   );
 }
